@@ -1,0 +1,1001 @@
+transaction_id,satisfaction_level
+1,Neutral
+2,Dissatisfied
+3,Very Dissatisfied
+4,Neutral
+5,Satisfied
+6,Satisfied
+7,Neutral
+8,Dissatisfied
+9,Dissatisfied
+10,Dissatisfied
+11,Very Dissatisfied
+12,Dissatisfied
+13,Very Satisfied
+14,Satisfied
+15,Very Satisfied
+16,Very Satisfied
+17,Neutral
+18,Very Dissatisfied
+19,Dissatisfied
+20,Satisfied
+21,Neutral
+22,Neutral
+23,Neutral
+24,Dissatisfied
+25,Very Dissatisfied
+26,Very Satisfied
+27,Very Dissatisfied
+28,Satisfied
+29,Very Satisfied
+30,Satisfied
+31,Dissatisfied
+32,Dissatisfied
+33,Dissatisfied
+34,Neutral
+35,Dissatisfied
+36,Very Satisfied
+37,Dissatisfied
+38,Dissatisfied
+39,Very Dissatisfied
+40,Very Satisfied
+41,Very Dissatisfied
+42,Dissatisfied
+43,Satisfied
+44,Very Satisfied
+45,Very Dissatisfied
+46,Satisfied
+47,Neutral
+48,Dissatisfied
+49,Dissatisfied
+50,Very Dissatisfied
+51,Satisfied
+52,Very Satisfied
+53,Dissatisfied
+54,Dissatisfied
+55,Very Dissatisfied
+56,Very Dissatisfied
+57,Satisfied
+58,Very Satisfied
+59,Dissatisfied
+60,Satisfied
+61,Satisfied
+62,Very Satisfied
+63,Dissatisfied
+64,Very Satisfied
+65,Very Dissatisfied
+66,Dissatisfied
+67,Neutral
+68,Very Dissatisfied
+69,Satisfied
+70,Satisfied
+71,Dissatisfied
+72,Satisfied
+73,Satisfied
+74,Very Dissatisfied
+75,Very Satisfied
+76,Very Dissatisfied
+77,Very Dissatisfied
+78,Satisfied
+79,Very Satisfied
+80,Neutral
+81,Very Satisfied
+82,Very Dissatisfied
+83,Dissatisfied
+84,Satisfied
+85,Satisfied
+86,Very Dissatisfied
+87,Neutral
+88,Very Satisfied
+89,Neutral
+90,Neutral
+91,Very Satisfied
+92,Very Dissatisfied
+93,Neutral
+94,Neutral
+95,Dissatisfied
+96,Very Dissatisfied
+97,Very Satisfied
+98,Neutral
+99,Very Satisfied
+100,Satisfied
+101,Very Dissatisfied
+102,Dissatisfied
+103,Dissatisfied
+104,Satisfied
+105,Satisfied
+106,Very Dissatisfied
+107,Very Satisfied
+108,Very Satisfied
+109,Dissatisfied
+110,Dissatisfied
+111,Very Satisfied
+112,Very Satisfied
+113,Neutral
+114,Very Dissatisfied
+115,Satisfied
+116,Dissatisfied
+117,Very Satisfied
+118,Very Dissatisfied
+119,Satisfied
+120,Very Dissatisfied
+121,Very Dissatisfied
+122,Very Dissatisfied
+123,Dissatisfied
+124,Neutral
+125,Neutral
+126,Very Dissatisfied
+127,Satisfied
+128,Satisfied
+129,Dissatisfied
+130,Neutral
+131,Neutral
+132,Dissatisfied
+133,Very Satisfied
+134,Very Satisfied
+135,Dissatisfied
+136,Dissatisfied
+137,Dissatisfied
+138,Very Satisfied
+139,Neutral
+140,Satisfied
+141,Neutral
+142,Dissatisfied
+143,Very Satisfied
+144,Very Satisfied
+145,Very Satisfied
+146,Very Dissatisfied
+147,Satisfied
+148,Satisfied
+149,Dissatisfied
+150,Dissatisfied
+151,Very Dissatisfied
+152,Dissatisfied
+153,Neutral
+154,Satisfied
+155,Very Dissatisfied
+156,Very Dissatisfied
+157,Neutral
+158,Very Dissatisfied
+159,Very Dissatisfied
+160,Neutral
+161,Satisfied
+162,Very Satisfied
+163,Satisfied
+164,Very Dissatisfied
+165,Very Satisfied
+166,Neutral
+167,Very Satisfied
+168,Very Dissatisfied
+169,Neutral
+170,Very Dissatisfied
+171,Neutral
+172,Dissatisfied
+173,Satisfied
+174,Neutral
+175,Very Dissatisfied
+176,Satisfied
+177,Satisfied
+178,Satisfied
+179,Very Dissatisfied
+180,Very Satisfied
+181,Neutral
+182,Dissatisfied
+183,Neutral
+184,Neutral
+185,Satisfied
+186,Neutral
+187,Satisfied
+188,Neutral
+189,Neutral
+190,Very Satisfied
+191,Dissatisfied
+192,Very Dissatisfied
+193,Very Satisfied
+194,Very Satisfied
+195,Very Satisfied
+196,Neutral
+197,Very Dissatisfied
+198,Satisfied
+199,Satisfied
+200,Satisfied
+201,Neutral
+202,Very Satisfied
+203,Very Satisfied
+204,Very Satisfied
+205,Dissatisfied
+206,Neutral
+207,Dissatisfied
+208,Very Dissatisfied
+209,Dissatisfied
+210,Very Satisfied
+211,Dissatisfied
+212,Neutral
+213,Neutral
+214,Satisfied
+215,Very Dissatisfied
+216,Neutral
+217,Neutral
+218,Neutral
+219,Very Dissatisfied
+220,Dissatisfied
+221,Very Dissatisfied
+222,Neutral
+223,Neutral
+224,Neutral
+225,Neutral
+226,Neutral
+227,Dissatisfied
+228,Satisfied
+229,Neutral
+230,Very Dissatisfied
+231,Satisfied
+232,Neutral
+233,Dissatisfied
+234,Very Dissatisfied
+235,Very Satisfied
+236,Very Satisfied
+237,Satisfied
+238,Very Dissatisfied
+239,Very Satisfied
+240,Satisfied
+241,Satisfied
+242,Very Dissatisfied
+243,Very Satisfied
+244,Neutral
+245,Very Satisfied
+246,Very Satisfied
+247,Very Dissatisfied
+248,Satisfied
+249,Very Dissatisfied
+250,Very Dissatisfied
+251,Very Satisfied
+252,Neutral
+253,Dissatisfied
+254,Very Dissatisfied
+255,Very Satisfied
+256,Very Satisfied
+257,Very Satisfied
+258,Very Dissatisfied
+259,Dissatisfied
+260,Very Dissatisfied
+261,Satisfied
+262,Very Dissatisfied
+263,Satisfied
+264,Very Satisfied
+265,Very Dissatisfied
+266,Very Satisfied
+267,Very Satisfied
+268,Dissatisfied
+269,Very Satisfied
+270,Satisfied
+271,Satisfied
+272,Very Satisfied
+273,Very Dissatisfied
+274,Very Satisfied
+275,Neutral
+276,Dissatisfied
+277,Dissatisfied
+278,Dissatisfied
+279,Dissatisfied
+280,Neutral
+281,Very Satisfied
+282,Dissatisfied
+283,Dissatisfied
+284,Satisfied
+285,Very Satisfied
+286,Dissatisfied
+287,Neutral
+288,Dissatisfied
+289,Very Dissatisfied
+290,Neutral
+291,Satisfied
+292,Neutral
+293,Satisfied
+294,Neutral
+295,Neutral
+296,Dissatisfied
+297,Very Satisfied
+298,Very Satisfied
+299,Neutral
+300,Neutral
+301,Very Dissatisfied
+302,Dissatisfied
+303,Dissatisfied
+304,Dissatisfied
+305,Satisfied
+306,Very Dissatisfied
+307,Very Satisfied
+308,Very Satisfied
+309,Neutral
+310,Neutral
+311,Dissatisfied
+312,Dissatisfied
+313,Dissatisfied
+314,Satisfied
+315,Satisfied
+316,Very Dissatisfied
+317,Very Dissatisfied
+318,Very Satisfied
+319,Dissatisfied
+320,Neutral
+321,Very Dissatisfied
+322,Very Dissatisfied
+323,Neutral
+324,Satisfied
+325,Very Satisfied
+326,Neutral
+327,Very Dissatisfied
+328,Very Dissatisfied
+329,Dissatisfied
+330,Satisfied
+331,Satisfied
+332,Dissatisfied
+333,Very Dissatisfied
+334,Very Satisfied
+335,Very Satisfied
+336,Satisfied
+337,Very Dissatisfied
+338,Satisfied
+339,Dissatisfied
+340,Satisfied
+341,Very Satisfied
+342,Very Satisfied
+343,Very Dissatisfied
+344,Very Dissatisfied
+345,Dissatisfied
+346,Very Dissatisfied
+347,Very Satisfied
+348,Very Dissatisfied
+349,Very Satisfied
+350,Neutral
+351,Very Dissatisfied
+352,Dissatisfied
+353,Very Satisfied
+354,Very Dissatisfied
+355,Very Satisfied
+356,Satisfied
+357,Neutral
+358,Neutral
+359,Very Satisfied
+360,Very Satisfied
+361,Neutral
+362,Dissatisfied
+363,Very Dissatisfied
+364,Very Dissatisfied
+365,Very Satisfied
+366,Neutral
+367,Neutral
+368,Neutral
+369,Dissatisfied
+370,Very Satisfied
+371,Very Satisfied
+372,Satisfied
+373,Satisfied
+374,Neutral
+375,Neutral
+376,Dissatisfied
+377,Satisfied
+378,Very Dissatisfied
+379,Dissatisfied
+380,Satisfied
+381,Satisfied
+382,Dissatisfied
+383,Dissatisfied
+384,Very Dissatisfied
+385,Very Dissatisfied
+386,Dissatisfied
+387,Very Dissatisfied
+388,Very Dissatisfied
+389,Very Satisfied
+390,Very Dissatisfied
+391,Neutral
+392,Satisfied
+393,Satisfied
+394,Neutral
+395,Satisfied
+396,Very Dissatisfied
+397,Dissatisfied
+398,Very Satisfied
+399,Very Dissatisfied
+400,Neutral
+401,Satisfied
+402,Very Satisfied
+403,Satisfied
+404,Dissatisfied
+405,Very Dissatisfied
+406,Neutral
+407,Very Satisfied
+408,Very Satisfied
+409,Very Dissatisfied
+410,Very Dissatisfied
+411,Very Dissatisfied
+412,Dissatisfied
+413,Very Dissatisfied
+414,Very Satisfied
+415,Very Dissatisfied
+416,Neutral
+417,Satisfied
+418,Dissatisfied
+419,Neutral
+420,Satisfied
+421,Dissatisfied
+422,Very Satisfied
+423,Very Satisfied
+424,Very Dissatisfied
+425,Neutral
+426,Satisfied
+427,Neutral
+428,Satisfied
+429,Very Satisfied
+430,Very Dissatisfied
+431,Very Satisfied
+432,Satisfied
+433,Satisfied
+434,Very Satisfied
+435,Neutral
+436,Very Satisfied
+437,Very Satisfied
+438,Satisfied
+439,Very Satisfied
+440,Neutral
+441,Satisfied
+442,Very Satisfied
+443,Neutral
+444,Dissatisfied
+445,Very Satisfied
+446,Dissatisfied
+447,Satisfied
+448,Dissatisfied
+449,Dissatisfied
+450,Satisfied
+451,Neutral
+452,Satisfied
+453,Very Satisfied
+454,Neutral
+455,Dissatisfied
+456,Very Dissatisfied
+457,Neutral
+458,Very Satisfied
+459,Satisfied
+460,Very Dissatisfied
+461,Neutral
+462,Very Satisfied
+463,Neutral
+464,Very Satisfied
+465,Very Satisfied
+466,Satisfied
+467,Neutral
+468,Very Dissatisfied
+469,Very Satisfied
+470,Very Dissatisfied
+471,Dissatisfied
+472,Satisfied
+473,Satisfied
+474,Very Dissatisfied
+475,Neutral
+476,Very Dissatisfied
+477,Very Dissatisfied
+478,Satisfied
+479,Satisfied
+480,Satisfied
+481,Neutral
+482,Very Dissatisfied
+483,Satisfied
+484,Satisfied
+485,Satisfied
+486,Satisfied
+487,Dissatisfied
+488,Satisfied
+489,Very Dissatisfied
+490,Dissatisfied
+491,Very Dissatisfied
+492,Dissatisfied
+493,Neutral
+494,Satisfied
+495,Dissatisfied
+496,Very Satisfied
+497,Satisfied
+498,Neutral
+499,Very Satisfied
+500,Neutral
+501,Very Satisfied
+502,Neutral
+503,Very Dissatisfied
+504,Neutral
+505,Very Dissatisfied
+506,Satisfied
+507,Neutral
+508,Very Satisfied
+509,Very Dissatisfied
+510,Satisfied
+511,Very Dissatisfied
+512,Neutral
+513,Neutral
+514,Satisfied
+515,Neutral
+516,Dissatisfied
+517,Very Dissatisfied
+518,Satisfied
+519,Satisfied
+520,Satisfied
+521,Very Satisfied
+522,Very Satisfied
+523,Satisfied
+524,Neutral
+525,Dissatisfied
+526,Very Satisfied
+527,Satisfied
+528,Satisfied
+529,Very Dissatisfied
+530,Dissatisfied
+531,Very Dissatisfied
+532,Neutral
+533,Neutral
+534,Satisfied
+535,Satisfied
+536,Very Dissatisfied
+537,Dissatisfied
+538,Satisfied
+539,Very Satisfied
+540,Satisfied
+541,Very Dissatisfied
+542,Neutral
+543,Very Dissatisfied
+544,Very Dissatisfied
+545,Neutral
+546,Neutral
+547,Very Satisfied
+548,Dissatisfied
+549,Dissatisfied
+550,Very Satisfied
+551,Dissatisfied
+552,Very Satisfied
+553,Satisfied
+554,Very Dissatisfied
+555,Very Dissatisfied
+556,Dissatisfied
+557,Dissatisfied
+558,Neutral
+559,Satisfied
+560,Neutral
+561,Satisfied
+562,Dissatisfied
+563,Dissatisfied
+564,Very Dissatisfied
+565,Satisfied
+566,Satisfied
+567,Very Satisfied
+568,Dissatisfied
+569,Very Dissatisfied
+570,Very Dissatisfied
+571,Satisfied
+572,Dissatisfied
+573,Very Satisfied
+574,Neutral
+575,Dissatisfied
+576,Neutral
+577,Neutral
+578,Satisfied
+579,Very Dissatisfied
+580,Very Dissatisfied
+581,Dissatisfied
+582,Dissatisfied
+583,Dissatisfied
+584,Very Satisfied
+585,Very Satisfied
+586,Satisfied
+587,Very Dissatisfied
+588,Dissatisfied
+589,Neutral
+590,Very Satisfied
+591,Very Satisfied
+592,Dissatisfied
+593,Dissatisfied
+594,Dissatisfied
+595,Satisfied
+596,Neutral
+597,Dissatisfied
+598,Satisfied
+599,Neutral
+600,Neutral
+601,Neutral
+602,Neutral
+603,Satisfied
+604,Very Dissatisfied
+605,Dissatisfied
+606,Very Satisfied
+607,Neutral
+608,Very Dissatisfied
+609,Neutral
+610,Dissatisfied
+611,Very Dissatisfied
+612,Neutral
+613,Dissatisfied
+614,Very Satisfied
+615,Dissatisfied
+616,Satisfied
+617,Very Satisfied
+618,Satisfied
+619,Very Satisfied
+620,Neutral
+621,Neutral
+622,Very Dissatisfied
+623,Neutral
+624,Very Dissatisfied
+625,Dissatisfied
+626,Neutral
+627,Neutral
+628,Satisfied
+629,Very Dissatisfied
+630,Dissatisfied
+631,Satisfied
+632,Very Dissatisfied
+633,Very Satisfied
+634,Satisfied
+635,Very Satisfied
+636,Dissatisfied
+637,Satisfied
+638,Very Dissatisfied
+639,Very Satisfied
+640,Satisfied
+641,Satisfied
+642,Satisfied
+643,Very Dissatisfied
+644,Satisfied
+645,Neutral
+646,Satisfied
+647,Very Dissatisfied
+648,Dissatisfied
+649,Very Dissatisfied
+650,Very Satisfied
+651,Satisfied
+652,Very Dissatisfied
+653,Neutral
+654,Very Dissatisfied
+655,Neutral
+656,Very Dissatisfied
+657,Dissatisfied
+658,Very Dissatisfied
+659,Very Satisfied
+660,Very Satisfied
+661,Neutral
+662,Very Dissatisfied
+663,Dissatisfied
+664,Satisfied
+665,Dissatisfied
+666,Dissatisfied
+667,Satisfied
+668,Neutral
+669,Dissatisfied
+670,Neutral
+671,Very Satisfied
+672,Dissatisfied
+673,Satisfied
+674,Neutral
+675,Very Satisfied
+676,Satisfied
+677,Very Dissatisfied
+678,Very Dissatisfied
+679,Very Dissatisfied
+680,Dissatisfied
+681,Satisfied
+682,Very Dissatisfied
+683,Dissatisfied
+684,Satisfied
+685,Satisfied
+686,Dissatisfied
+687,Satisfied
+688,Very Satisfied
+689,Dissatisfied
+690,Dissatisfied
+691,Satisfied
+692,Very Satisfied
+693,Very Satisfied
+694,Dissatisfied
+695,Very Satisfied
+696,Dissatisfied
+697,Very Satisfied
+698,Neutral
+699,Very Satisfied
+700,Neutral
+701,Very Dissatisfied
+702,Neutral
+703,Very Satisfied
+704,Neutral
+705,Very Dissatisfied
+706,Neutral
+707,Very Satisfied
+708,Satisfied
+709,Satisfied
+710,Neutral
+711,Neutral
+712,Very Dissatisfied
+713,Satisfied
+714,Neutral
+715,Very Satisfied
+716,Very Satisfied
+717,Neutral
+718,Very Dissatisfied
+719,Satisfied
+720,Neutral
+721,Dissatisfied
+722,Neutral
+723,Very Satisfied
+724,Very Dissatisfied
+725,Very Satisfied
+726,Dissatisfied
+727,Very Satisfied
+728,Dissatisfied
+729,Very Dissatisfied
+730,Dissatisfied
+731,Dissatisfied
+732,Very Dissatisfied
+733,Satisfied
+734,Dissatisfied
+735,Satisfied
+736,Satisfied
+737,Very Dissatisfied
+738,Very Satisfied
+739,Very Dissatisfied
+740,Very Satisfied
+741,Dissatisfied
+742,Neutral
+743,Satisfied
+744,Satisfied
+745,Satisfied
+746,Dissatisfied
+747,Neutral
+748,Dissatisfied
+749,Neutral
+750,Very Satisfied
+751,Very Dissatisfied
+752,Very Satisfied
+753,Very Dissatisfied
+754,Very Satisfied
+755,Neutral
+756,Neutral
+757,Neutral
+758,Dissatisfied
+759,Satisfied
+760,Neutral
+761,Dissatisfied
+762,Neutral
+763,Very Dissatisfied
+764,Very Dissatisfied
+765,Very Dissatisfied
+766,Neutral
+767,Very Satisfied
+768,Satisfied
+769,Very Satisfied
+770,Very Satisfied
+771,Satisfied
+772,Very Satisfied
+773,Satisfied
+774,Dissatisfied
+775,Dissatisfied
+776,Dissatisfied
+777,Very Dissatisfied
+778,Very Dissatisfied
+779,Satisfied
+780,Very Dissatisfied
+781,Satisfied
+782,Dissatisfied
+783,Very Satisfied
+784,Dissatisfied
+785,Neutral
+786,Very Satisfied
+787,Satisfied
+788,Dissatisfied
+789,Neutral
+790,Very Satisfied
+791,Very Dissatisfied
+792,Satisfied
+793,Dissatisfied
+794,Very Satisfied
+795,Satisfied
+796,Satisfied
+797,Dissatisfied
+798,Satisfied
+799,Dissatisfied
+800,Satisfied
+801,Dissatisfied
+802,Dissatisfied
+803,Very Dissatisfied
+804,Neutral
+805,Very Dissatisfied
+806,Neutral
+807,Dissatisfied
+808,Dissatisfied
+809,Very Satisfied
+810,Very Satisfied
+811,Very Dissatisfied
+812,Very Dissatisfied
+813,Neutral
+814,Dissatisfied
+815,Very Dissatisfied
+816,Satisfied
+817,Neutral
+818,Satisfied
+819,Dissatisfied
+820,Very Dissatisfied
+821,Very Dissatisfied
+822,Neutral
+823,Very Dissatisfied
+824,Very Satisfied
+825,Satisfied
+826,Neutral
+827,Very Dissatisfied
+828,Satisfied
+829,Very Satisfied
+830,Satisfied
+831,Satisfied
+832,Very Dissatisfied
+833,Very Dissatisfied
+834,Dissatisfied
+835,Neutral
+836,Very Dissatisfied
+837,Very Satisfied
+838,Satisfied
+839,Very Dissatisfied
+840,Very Dissatisfied
+841,Dissatisfied
+842,Satisfied
+843,Very Dissatisfied
+844,Very Dissatisfied
+845,Very Dissatisfied
+846,Very Satisfied
+847,Neutral
+848,Neutral
+849,Dissatisfied
+850,Very Dissatisfied
+851,Satisfied
+852,Very Satisfied
+853,Very Satisfied
+854,Very Satisfied
+855,Very Satisfied
+856,Dissatisfied
+857,Very Satisfied
+858,Dissatisfied
+859,Dissatisfied
+860,Very Satisfied
+861,Neutral
+862,Very Satisfied
+863,Dissatisfied
+864,Satisfied
+865,Satisfied
+866,Dissatisfied
+867,Satisfied
+868,Satisfied
+869,Satisfied
+870,Neutral
+871,Satisfied
+872,Dissatisfied
+873,Satisfied
+874,Very Satisfied
+875,Very Dissatisfied
+876,Very Dissatisfied
+877,Dissatisfied
+878,Satisfied
+879,Very Dissatisfied
+880,Very Satisfied
+881,Neutral
+882,Very Dissatisfied
+883,Neutral
+884,Very Satisfied
+885,Very Satisfied
+886,Very Satisfied
+887,Satisfied
+888,Very Dissatisfied
+889,Dissatisfied
+890,Neutral
+891,Neutral
+892,Very Satisfied
+893,Neutral
+894,Very Dissatisfied
+895,Neutral
+896,Very Dissatisfied
+897,Satisfied
+898,Dissatisfied
+899,Satisfied
+900,Dissatisfied
+901,Very Satisfied
+902,Satisfied
+903,Neutral
+904,Neutral
+905,Very Satisfied
+906,Very Satisfied
+907,Very Satisfied
+908,Neutral
+909,Satisfied
+910,Neutral
+911,Very Satisfied
+912,Very Dissatisfied
+913,Dissatisfied
+914,Dissatisfied
+915,Dissatisfied
+916,Very Satisfied
+917,Satisfied
+918,Dissatisfied
+919,Very Satisfied
+920,Very Dissatisfied
+921,Satisfied
+922,Very Satisfied
+923,Satisfied
+924,Neutral
+925,Dissatisfied
+926,Very Satisfied
+927,Neutral
+928,Very Satisfied
+929,Dissatisfied
+930,Satisfied
+931,Very Dissatisfied
+932,Very Dissatisfied
+933,Satisfied
+934,Very Dissatisfied
+935,Neutral
+936,Satisfied
+937,Dissatisfied
+938,Very Dissatisfied
+939,Neutral
+940,Very Dissatisfied
+941,Dissatisfied
+942,Satisfied
+943,Very Satisfied
+944,Very Satisfied
+945,Satisfied
+946,Very Dissatisfied
+947,Dissatisfied
+948,Neutral
+949,Very Dissatisfied
+950,Satisfied
+951,Dissatisfied
+952,Dissatisfied
+953,Very Satisfied
+954,Dissatisfied
+955,Satisfied
+956,Very Satisfied
+957,Very Satisfied
+958,Very Dissatisfied
+959,Dissatisfied
+960,Satisfied
+961,Neutral
+962,Dissatisfied
+963,Very Satisfied
+964,Very Dissatisfied
+965,Dissatisfied
+966,Satisfied
+967,Satisfied
+968,Satisfied
+969,Satisfied
+970,Neutral
+971,Dissatisfied
+972,Very Satisfied
+973,Very Dissatisfied
+974,Dissatisfied
+975,Dissatisfied
+976,Satisfied
+977,Satisfied
+978,Very Dissatisfied
+979,Very Satisfied
+980,Very Satisfied
+981,Neutral
+982,Very Dissatisfied
+983,Dissatisfied
+984,Very Satisfied
+985,Neutral
+986,Dissatisfied
+987,Very Dissatisfied
+988,Very Satisfied
+989,Dissatisfied
+990,Dissatisfied
+991,Very Satisfied
+992,Neutral
+993,Very Dissatisfied
+994,Dissatisfied
+995,Very Dissatisfied
+996,Neutral
+997,Satisfied
+998,Satisfied
+999,Dissatisfied
+1000,Dissatisfied
