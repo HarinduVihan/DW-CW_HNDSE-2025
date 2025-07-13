@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.41, for Win64 (x86_64)
 --
--- Host: localhost    Database: dm2
+-- Host: localhost    Database: dw
 -- ------------------------------------------------------
 -- Server version	8.0.41
 
@@ -16,37 +16,29 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `rating_fact`
+-- Table structure for table `date_dim`
 --
 
-DROP TABLE IF EXISTS `rating_fact`;
+DROP TABLE IF EXISTS `date_dim`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `rating_fact` (
-  `Customer_SK` int DEFAULT NULL,
-  `Date_SK` int DEFAULT NULL,
-  `Review_SK` int DEFAULT NULL,
-  `Product_Sk` int DEFAULT NULL,
-  `Rating` double DEFAULT NULL,
-  `Rating_count` int DEFAULT NULL,
-  KEY `date3_idx` (`Date_SK`),
-  KEY `customer2_idx` (`Customer_SK`),
-  KEY `product3_idx` (`Product_Sk`),
-  KEY `review_idx` (`Review_SK`),
-  CONSTRAINT `customer2` FOREIGN KEY (`Customer_SK`) REFERENCES `customer_dim` (`Customer_SK`),
-  CONSTRAINT `date3` FOREIGN KEY (`Date_SK`) REFERENCES `date_dim` (`Date_SK`),
-  CONSTRAINT `product3` FOREIGN KEY (`Product_Sk`) REFERENCES `product_dim` (`Product_SK`),
-  CONSTRAINT `review` FOREIGN KEY (`Review_SK`) REFERENCES `review_dim` (`Review_SK`)
+CREATE TABLE `date_dim` (
+  `Date_SK` int NOT NULL AUTO_INCREMENT,
+  `Date` varchar(45) DEFAULT NULL,
+  `Month` varchar(45) DEFAULT NULL,
+  `Year` varchar(45) DEFAULT NULL,
+  `Quarter` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`Date_SK`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `rating_fact`
+-- Dumping data for table `date_dim`
 --
 
-LOCK TABLES `rating_fact` WRITE;
-/*!40000 ALTER TABLE `rating_fact` DISABLE KEYS */;
-/*!40000 ALTER TABLE `rating_fact` ENABLE KEYS */;
+LOCK TABLES `date_dim` WRITE;
+/*!40000 ALTER TABLE `date_dim` DISABLE KEYS */;
+/*!40000 ALTER TABLE `date_dim` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -58,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-13 17:51:12
+-- Dump completed on 2025-07-13 18:15:54

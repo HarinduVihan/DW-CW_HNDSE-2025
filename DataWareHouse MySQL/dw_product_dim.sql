@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.41, for Win64 (x86_64)
 --
--- Host: localhost    Database: dm2
+-- Host: localhost    Database: dw
 -- ------------------------------------------------------
 -- Server version	8.0.41
 
@@ -16,33 +16,34 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `customer_dim`
+-- Table structure for table `product_dim`
 --
 
-DROP TABLE IF EXISTS `customer_dim`;
+DROP TABLE IF EXISTS `product_dim`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `customer_dim` (
-  `Customer_SK` int NOT NULL AUTO_INCREMENT,
-  `Customer_ID` varchar(100) DEFAULT NULL,
-  `First_name` varchar(100) DEFAULT NULL,
-  `Last_name` varchar(100) DEFAULT NULL,
-  `City` varchar(50) DEFAULT NULL,
-  `Phone1` int DEFAULT NULL,
-  `Phone2` int DEFAULT NULL,
-  `Email` varchar(50) DEFAULT NULL,
-  `Address` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`Customer_SK`)
+CREATE TABLE `product_dim` (
+  `Product_SK` int NOT NULL AUTO_INCREMENT,
+  `Product_ID` varchar(100) DEFAULT NULL,
+  `Product_name` varchar(85) DEFAULT NULL,
+  `Category` varchar(85) DEFAULT NULL,
+  `Discount` double DEFAULT NULL,
+  `Actual_price` double DEFAULT NULL,
+  `Discounted_price` double DEFAULT NULL,
+  `About_product` varchar(150) DEFAULT NULL,
+  `Img_link` varchar(150) DEFAULT NULL,
+  `Product_link` varchar(150) DEFAULT NULL,
+  PRIMARY KEY (`Product_SK`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `customer_dim`
+-- Dumping data for table `product_dim`
 --
 
-LOCK TABLES `customer_dim` WRITE;
-/*!40000 ALTER TABLE `customer_dim` DISABLE KEYS */;
-/*!40000 ALTER TABLE `customer_dim` ENABLE KEYS */;
+LOCK TABLES `product_dim` WRITE;
+/*!40000 ALTER TABLE `product_dim` DISABLE KEYS */;
+/*!40000 ALTER TABLE `product_dim` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -54,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-13 17:51:12
+-- Dump completed on 2025-07-13 18:15:55
