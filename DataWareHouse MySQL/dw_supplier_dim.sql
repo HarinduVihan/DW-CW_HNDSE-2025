@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `supplier_dim`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `supplier_dim` (
-  `Supplier_Sk` int NOT NULL AUTO_INCREMENT,
+  `Supplier_Sk` int NOT NULL,
   `Supplier_ID` varchar(100) DEFAULT NULL,
   `First_name` varchar(50) DEFAULT NULL,
   `Last_name` varchar(50) DEFAULT NULL,
