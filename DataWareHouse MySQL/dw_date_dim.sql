@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `date_dim`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `date_dim` (
-  `Date_SK` int NOT NULL AUTO_INCREMENT,
+  `Date_SK` int NOT NULL,
   `Date` varchar(45) DEFAULT NULL,
   `Month` varchar(45) DEFAULT NULL,
   `Year` varchar(45) DEFAULT NULL,
