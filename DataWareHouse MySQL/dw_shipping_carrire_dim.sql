@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `shipping_carrire_dim`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `shipping_carrire_dim` (
-  `Shipping_carrie_SK` int NOT NULL AUTO_INCREMENT,
+  `Shipping_carrie_SK` int NOT NULL,
   `Shipping_carrie_ID` varchar(100) DEFAULT NULL,
   `Shipping_carrie_Name` varchar(100) DEFAULT NULL,
   `Hotline` varchar(45) DEFAULT NULL,

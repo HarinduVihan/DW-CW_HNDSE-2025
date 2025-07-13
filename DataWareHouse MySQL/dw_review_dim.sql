@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `review_dim`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `review_dim` (
-  `Review_SK` int NOT NULL AUTO_INCREMENT,
+  `Review_SK` int NOT NULL,
   `Review_ID` varchar(100) DEFAULT NULL,
   `Review_title` varchar(100) DEFAULT NULL,
   `Review_content` varchar(100) DEFAULT NULL,
