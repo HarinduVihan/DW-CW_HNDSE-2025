@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.41, for Win64 (x86_64)
 --
--- Host: localhost    Database: dm2
+-- Host: localhost    Database: dw
 -- ------------------------------------------------------
 -- Server version	8.0.41
 
@@ -16,29 +16,30 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `date_dim`
+-- Table structure for table `shipping_carrire_dim`
 --
 
-DROP TABLE IF EXISTS `date_dim`;
+DROP TABLE IF EXISTS `shipping_carrire_dim`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `date_dim` (
-  `Date_SK` int NOT NULL AUTO_INCREMENT,
-  `Date` varchar(45) DEFAULT NULL,
-  `Month` varchar(45) DEFAULT NULL,
-  `Year` varchar(45) DEFAULT NULL,
-  `Quarter` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`Date_SK`)
+CREATE TABLE `shipping_carrire_dim` (
+  `Shipping_carrie_SK` int NOT NULL AUTO_INCREMENT,
+  `Shipping_carrie_ID` varchar(100) DEFAULT NULL,
+  `Shipping_carrie_Name` varchar(100) DEFAULT NULL,
+  `Hotline` varchar(45) DEFAULT NULL,
+  `Website` varchar(45) DEFAULT NULL,
+  `Email` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`Shipping_carrie_SK`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `date_dim`
+-- Dumping data for table `shipping_carrire_dim`
 --
 
-LOCK TABLES `date_dim` WRITE;
-/*!40000 ALTER TABLE `date_dim` DISABLE KEYS */;
-/*!40000 ALTER TABLE `date_dim` ENABLE KEYS */;
+LOCK TABLES `shipping_carrire_dim` WRITE;
+/*!40000 ALTER TABLE `shipping_carrire_dim` DISABLE KEYS */;
+/*!40000 ALTER TABLE `shipping_carrire_dim` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-13 17:51:12
+-- Dump completed on 2025-07-13 18:15:54

@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.41, for Win64 (x86_64)
 --
--- Host: localhost    Database: dm2
+-- Host: localhost    Database: dw
 -- ------------------------------------------------------
 -- Server version	8.0.41
 
@@ -16,33 +16,30 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `supplier_dim`
+-- Table structure for table `inventory_fact`
 --
 
-DROP TABLE IF EXISTS `supplier_dim`;
+DROP TABLE IF EXISTS `inventory_fact`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `supplier_dim` (
-  `Supplier_Sk` int NOT NULL AUTO_INCREMENT,
-  `Supplier_ID` varchar(100) DEFAULT NULL,
-  `First_name` varchar(50) DEFAULT NULL,
-  `Last_name` varchar(50) DEFAULT NULL,
-  `Address` varchar(50) DEFAULT NULL,
-  `City` varchar(50) DEFAULT NULL,
-  `Postal_code` varchar(30) DEFAULT NULL,
-  `Phone` int DEFAULT NULL,
-  `Email` varchar(30) DEFAULT NULL,
-  PRIMARY KEY (`Supplier_Sk`)
+CREATE TABLE `inventory_fact` (
+  `Product_SK` int DEFAULT NULL,
+  `Date_SK` int DEFAULT NULL,
+  `Stock_Level` int DEFAULT NULL,
+  KEY `date_idx` (`Date_SK`),
+  KEY `product_idx` (`Product_SK`),
+  CONSTRAINT `date` FOREIGN KEY (`Date_SK`) REFERENCES `date_dim` (`Date_SK`),
+  CONSTRAINT `product` FOREIGN KEY (`Product_SK`) REFERENCES `product_dim` (`Product_SK`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `supplier_dim`
+-- Dumping data for table `inventory_fact`
 --
 
-LOCK TABLES `supplier_dim` WRITE;
-/*!40000 ALTER TABLE `supplier_dim` DISABLE KEYS */;
-/*!40000 ALTER TABLE `supplier_dim` ENABLE KEYS */;
+LOCK TABLES `inventory_fact` WRITE;
+/*!40000 ALTER TABLE `inventory_fact` DISABLE KEYS */;
+/*!40000 ALTER TABLE `inventory_fact` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -54,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-13 17:51:12
+-- Dump completed on 2025-07-13 18:15:55
